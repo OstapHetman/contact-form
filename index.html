@@ -25,26 +25,27 @@
             </div>
             <div class="contact">
                 <h3>Email Us</h3>
-                <form action="">
+                <!-- @TODO - validation -->
+                <form id="contactForm">
                     <p>
                         <label for="">Name</label>
-                        <input type="text" name="name">
+                        <input type="text" name="name" id="name">
                     </p>
                     <p>
                         <label for="">Company</label>
-                        <input type="text" name="company">
+                        <input type="text" name="company" id="company">
                     </p>
                     <p>
                         <label for="">Email Adress</label>
-                        <input type="text" name="email">
+                        <input type="text" name="email" id="email">
                     </p>
                     <p>
                         <label for="">Phone Number</label>
-                        <input type="text" name="phone">
+                        <input type="text" name="phone" id="phone">
                     </p>
                     <p class="full">
                         <label for="">Message</label>
-                        <textarea name="message" id="" cols="30" rows="5"></textarea>
+                        <textarea name="message" id="message" cols="30" rows="5"></textarea>
                     </p>
                     <p class="full">
                         <button type="submit">Submit</button>
@@ -53,6 +54,9 @@
             </div>
         </div>
     </div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.5.2/firebase.js"></script>
+    <script src="main.js"></script>
 
 </body>
 
