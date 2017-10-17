@@ -92,6 +92,15 @@ ul {
     transition: background-color 1s ease-out;
 }
 
+.alert {
+    text-align: center;
+    padding: 10px;
+    background: #79c879;
+    color: #fff;
+    margin-bottom: 10px;
+    display: none;
+}
+
 @media (min-width: 767px) {
     .wrapper {
         display: grid;

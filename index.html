@@ -25,11 +25,13 @@
             </div>
             <div class="contact">
                 <h3>Email Us</h3>
-                <!-- @TODO - validation -->
+                <div class="alert">
+                    Your message has been saved
+                </div>
                 <form id="contactForm">
                     <p>
                         <label for="">Name</label>
-                        <input type="text" name="name" id="name">
+                        <input type="text" name="name" id="name" required>
                     </p>
                     <p>
                         <label for="">Company</label>
@@ -37,7 +39,7 @@
                     </p>
                     <p>
                         <label for="">Email Adress</label>
-                        <input type="text" name="email" id="email">
+                        <input type="text" name="email" id="email" required>
                     </p>
                     <p>
                         <label for="">Phone Number</label>
